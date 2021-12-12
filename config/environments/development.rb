@@ -1,4 +1,6 @@
 Rails.application.configure do
+  # 追記
+  config.web_console.whitelisted_ips = '111.239.253.143'
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
