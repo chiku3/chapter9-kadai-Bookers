@@ -20,11 +20,18 @@
 
 <h1 class="new-top">New book</h1>
 
+
 <% if @book.errors.any? %>
+<div class="errors">
+ <div class="error-title">
  <%= @book.errors.count %> errors prohibited this book from being saved:
+ </div>
+ <ul class="error-message">
  <% @book.errors.full_messages.each do |message| %>
-  <%= message %>
+  <li><%= message %></li>
  <% end %>
+ </ul>
+</div>
 <% end %>
 
 <div class="new-form">

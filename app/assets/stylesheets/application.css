@@ -14,6 +14,7 @@
  *= require_self
  */
  
+ 
  /*topページ*/
 .top-text{
   margin: 30px;
@@ -48,6 +49,25 @@ table{
 .new-body{
   line-height: 0;
   margin-bottom: 15px;
+}
+
+/*error表示*/
+.errors{
+  margin-left: 35px;
+  width:600px;
+  height: 200px;
+  border:1px solid red;
+  background-color: whitesmoke;
+}
+
+.error-title{
+  color:white;
+  background-color: crimson;
+  padding-left: 15px;
+  line-height: 35px;
+}
+
+.error-massage{
 }
 
 /*showページ*/
