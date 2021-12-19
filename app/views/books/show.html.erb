@@ -1,3 +1,12 @@
+<div class="show-notice">
+<% if flash[:notice] %>
+<p>
+  <%= notice %>
+</p>
+<% end %>
+</div>
+
+
 <div class="show-title">
 <h4>Title:</h4>
 <p><%= @book.title %></p>

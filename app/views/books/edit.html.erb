@@ -1,3 +1,11 @@
+<div class="edit-notice">
+<% if flash[:notice] %>
+<p>
+  <%= notice %>
+</p>
+<% end %>
+</div>
+
 <div class="edit-all">
 <h1 class="edit-top">Editing Book</h1>
 <%= form_with model:@book,local:true do |f| %>

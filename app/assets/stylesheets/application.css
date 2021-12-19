@@ -25,6 +25,11 @@
 }
 
 /*indexページ*/
+.index-notice{
+  margin-left:50px;
+  color: green;
+}
+
 .index-top{
   margin-left:30px;
 }
@@ -67,10 +72,13 @@ table{
   line-height: 35px;
 }
 
-.error-massage{
+/*showページ*/
+.show-notice{
+  margin-left:50px;
+  color: green;
 }
 
-/*showページ*/
+
 .show-title{
   display: flex;
   align-items:baseline;
@@ -93,6 +101,12 @@ table{
 }
 
 /*Editページ*/
+.edit-notice{
+  margin-left:30px;
+  color: green;
+}
+
+
 .edit-all{
   margin-left:30px;
 }
