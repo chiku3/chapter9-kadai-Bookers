@@ -41,6 +41,15 @@ table{
   margin-left:35px;
 }
 
+.new-title{
+  line-height: 0;
+}
+
+.new-body{
+  line-height: 0;
+  margin-bottom: 15px;
+}
+
 /*showページ*/
 .show-title{
   display: flex;
@@ -62,3 +71,29 @@ table{
   align-items:baseline;
   gap:10px;
 }
+
+/*Editページ*/
+.edit-all{
+  margin-left:30px;
+}
+
+.edit-top{
+  margin:25px 0;
+}
+
+.edit-title{
+  margin:30px 0;
+  line-height: 0;
+}
+
+.edit-body{
+  margin:30px 0;
+  line-height: 0;
+}
+
+.edit-link{
+  display: flex;
+  align-items:baseline;
+  gap:10px;
+}
+
