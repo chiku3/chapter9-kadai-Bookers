@@ -14,10 +14,51 @@
  *= require_self
  */
  
+ /*topページ*/
 .top-text{
-  margin: 30px
+  margin: 30px;
 }
 
 .top-start{
-  margin: 30px
+  margin: 30px;
+}
+
+/*indexページ*/
+.index-top{
+  margin-left:30px;
+}
+
+table{
+  margin-left:35px;
+  border-spacing: 10px
+}
+
+.new-top{
+  margin-left: 35px;
+}
+
+.new-form{
+  margin-left:35px;
+}
+
+/*showページ*/
+.show-title{
+  display: flex;
+  align-items:baseline;
+  margin:25px 50px;
+  gap:10px;
+}
+
+.show-body{
+  display: flex;
+  align-items:baseline;
+  margin:25px 50px;
+  gap:10px;
+}
+
+.show-link{
+  margin-left:25px;
+  display: flex;
+  align-items:baseline;
+  gap:10px;
 }
