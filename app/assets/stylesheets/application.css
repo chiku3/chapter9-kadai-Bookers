@@ -16,12 +16,16 @@
  
  
  /*topページ*/
+.top-title{
+   margin-left: 30px;
+ }
+ 
 .top-text{
-  margin: 30px;
+  margin: 50px;
 }
 
-.top-start{
-  margin: 30px;
+.start{
+  margin: 50px;
 }
 
 /*indexページ*/
@@ -56,7 +60,7 @@ table{
   margin-bottom: 15px;
 }
 
-/*error表示*/
+/*crate-error表示*/
 .errors{
   margin-left: 35px;
   width:600px;
@@ -106,7 +110,6 @@ table{
   color: green;
 }
 
-
 .edit-all{
   margin-left:30px;
 }
@@ -131,3 +134,18 @@ table{
   gap:10px;
 }
 
+
+/*update-error表示*/
+.edit-errors{
+  width:600px;
+  height: 200px;
+  border:1px solid red;
+  background-color: whitesmoke;
+}
+
+.edit-error-title{
+  color:white;
+  background-color: crimson;
+  padding-left: 15px;
+  line-height: 35px;
+}
